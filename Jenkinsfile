@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    label 'jnlpslave'
+    label 'testslave'
   }
   stages {
     stage('Checkout') {
